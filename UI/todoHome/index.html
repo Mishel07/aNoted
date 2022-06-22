@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <title>aNoted-Home</title>
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">        <title>Home Page</title>
+    </head>
+    <body onload="onloadFun()">
+        <div class="header">
+            <nav>
+                <ul>
+                    <li id="logo">
+                        aNoted
+                    </li>
+                    <li>
+                        <input type="text" placeholder="search" id="search">
+                        <button type="submit" onclick="search()"><i class="fa fa-search"></i></button>
+                    </li>
+                    <li>
+                        <a href="../Home/index.html">Notes</a>
+                    </li>
+                    <li>
+                        <a href="../diary/diary.html">My diary</a>
+                    </li>
+                    <li>
+                        <a href="../login/login.html">Logout</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div>
+            <div class="dropdown">
+                <button class="dropbtn"><a href="../todo/todo.html" id="Note">CREATE</a></button><br><br><br>
+                <button onclick="myFunction()" class="dropbtn">Sort By</button>
+                <div id="myDropdown" class="dropdown-content">
+                    <a onclick="sortByCreation()">Creation Date</a>
+                    <a onclick="sortByModification()">Modified Date</a>
+                    <a onclick="sortByTitle()">Title Names</a>
+                </div>
+            </div> 
+        </div>
+        <div id="cards">
+        </div>
+
+        
+    </body>
+    <script src="index.js">
+    </script>
+</html>

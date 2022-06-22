@@ -1,0 +1,43 @@
+
+
+
+button{
+    background-color:lightblue;
+    font-size: 150%;
+    font-weight: bolder;
+}
+
+input{
+    font-size: larger;
+}
+
+#myform{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   background-color: #FFBF00;
+   color:rgb(9, 63, 63);
+   height:max-content;
+   width: max-content;
+   float: right;
+   margin-right: 15%;
+   margin-top: 5%;
+   display: flex;
+  
+ }
+
+ #logo{
+   float: left;
+   margin-left: 15%;
+ }
+
+ a{
+   color:rgb(9, 63, 63);
+ }
+
+ html {
+ 
+  background-image: -webkit-linear-gradient(65deg, #5F9EA0 50%, #002D62 50%);
+  min-height: 1000px;
+  font-family: 'helvetica neue';
+  padding-top: 5rem;
+  text-align: center;
+}

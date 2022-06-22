@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>aNoted-Login</title>
+    <link href="login.css" rel="stylesheet">
+</head>
+
+<body>
+    <form name="loginForm" method="POST">
+        <h1>aNoted - Login</h1>
+        <img src="logo.png" alt="" height="300">
+       
+
+        <div >
+            <input type="text" name="username" id="username" placeholder="Username" required/>
+        </div><br>
+
+        <div>
+            <input type="password" name="password" id="password" placeholder="Password" required/>
+        </div><br>
+
+        <button class="login-btn" >Login</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <button onclick="signUp()">Sign Up</button><br><br>
+        <a href="../forgotPass/forgot.html">Forgot Password?</a>
+    </form>
+
+    <script src="login.js"></script>
+</body>
+
+</html>

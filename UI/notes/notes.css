@@ -1,0 +1,61 @@
+html{
+    background-image: -webkit-linear-gradient(65deg, #5F9EA0 50%, #002D62 50%);
+    min-height: 1000px;
+    font-family: 'helvetica neue';
+    text-align: center;
+}
+
+.container{
+    
+    border: 1px solid;
+    display: flex;
+    border: 1px solid black;
+    width: 505px;
+    padding: 50px;
+    margin: auto;
+    background-color:#C74B50;
+    margin-top: 60px;
+    flex-wrap: wrap;
+    clear: both;
+    box-shadow: rgba(0.35, 0.35, 0.35, 0.35) 20px 20px 20px;
+}
+
+#notes-title{
+    font-size:x-large;
+    font-weight: bolder;
+    text-align: center;
+    margin-left: 60px;
+    font-family: 'Cedarville Cursive', cursive;
+}
+
+#form-control{
+    width: 500px;
+ }
+
+
+ .btn{
+    color:aliceblue;
+    font-size: 150%;
+    font-weight: bolder;
+    background-color:#5e4b84;
+    margin:5px;
+    padding: 5px;
+   
+ }
+
+ .btn:hover span {
+    padding-right: 25px;
+  }
+
+ #description{
+    min-height: 80%;
+    max-height: 200%;
+    font-size: 18px;
+    background-color:rgb(238, 214, 171);
+    font-weight: 500;
+ }
+
+ .bold{
+     font-weight: bold;
+     color: red;
+ }

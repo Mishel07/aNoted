@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>aNoted-Notes</title>
+    <link rel="stylesheet" href="notes.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Montserrat:wght@100;500&family=Ubuntu:wght@300&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <h1 style="text-align: center;font-weight: bolder;color: white;">aNoted - Notes</h1>
+    <div class="container">
+
+        <div id="form-control">
+
+            <input id="notes-title" type="text" name="testform" id="" placeholder="my diary" autofocus disabled>
+            <hr>
+
+            <div id="description">
+                <p id="content" contenteditable="true" spellcheck="false"></p>
+            </div><br><br>
+            <!-- <div style="margin-left: 60px;">
+                <button class="btn" onclick="doBold()">BOLD</button>
+                <button class="btn" onclick="doUnderline()">UNDERLINE</button>
+                <button class="btn" onclick="doItalic()">ITALIC </button>
+            </div> -->
+            <hr><br>
+            <button class="diary-btn btn">SAVE DIARY</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button class="del-btn btn" $style="background-color: cadetblue;">DELETE DIARY</button>
+        </div>
+</body>
+<script src="notes.js" defer></script>
+
+</html>

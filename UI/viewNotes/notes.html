@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Notes</title>
+    <link rel="stylesheet" href="notes.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Montserrat:wght@100;500&family=Ubuntu:wght@300&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <h1 style="text-align: center; color: white;">aNoted - Notes</h1>
+    <div class="container">
+
+        <div id="form-control">
+
+            <input id="notes-title" type="text" disabled name="testform" id="" placeholder="Enter Title" autofocus>
+            <hr>
+
+            <div id="description">
+                <p id="content" contenteditable="true" spellcheck="false"></p>
+            </div>
+            <!-- <div style="text-align: center;">
+            <button class="btn" onclick="doBold()">BOLD</button>
+            <button class="btn" onclick="doItalic()">ITALIC </button>
+            <button class="btn" onclick="doUnderline()">UNDERLINE</button>
+            </div> -->
+            <hr>
+            <button class="notes-btn btn" $style="text-align: center; margin-left: 150px ;  background-color: cadetblue;">SAVE NOTES</button>
+            <button class="del-btn btn" $style="text-align: center; margin-left: 150px ;  background-color: cadetblue;">DELETE NOTES</button>
+        </div>
+</body>
+<script src="notes.js" defer></script>
+
+</html>

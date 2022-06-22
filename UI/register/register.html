@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>aNoted-Register</title>
+    <link href="register.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="logo">
+        <img src="logo.png">
+    </div>
+    <div id="myform">
+    <form name="registerForm" method="POST">
+        <h1><b>&nbsp;&nbsp;aNoted</b> - Registration Form&nbsp;&nbsp;</h1>
+            <div>First Name:
+                <input type = "text" name="fname" placeholder = "Enter First Name" id = "firstName" required>
+            </div><br>
+            <div>Last Name:
+                <input type = "text" name="lname" placeholder = "Enter Last Name" id = "lastName" required>
+            </div><br>
+            <div>Email:
+                <input type = "email" placeholder = "Enter Email Address" id = "email" name="emailid"  required>
+            </div><br>
+            <div>Username:
+                <input type = "text" name="username" placeholder = "Enter Username" id="username" required>
+            </div><br>
+            <div>Password:
+                <input type = "password" name="password" placeholder = "Enter Password" id="password" required>
+            </div><br><br>
+            <button class="submit-btn" >Register</button><br>
+            <h2><a href="../login/login.html">Already have an account? Login</a></h2>
+    </form>
+    </div>
+
+    <script src="register.js"></script>
+</body>
+
+</html>

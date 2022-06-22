@@ -1,0 +1,70 @@
+.container{
+    
+    border: 1px solid;
+    display: flex;
+    border: 1px solid black;
+    width: 505px;
+    padding: 50px;
+    margin: auto;
+    margin-top: 60px;
+    flex-wrap: wrap;
+    clear: both;
+    background-color:#C74B50;
+    
+   
+}
+
+body{
+  
+    text-align: center;
+    
+    
+}
+#todo-title{
+    font-size:x-large;
+    font-weight: bolder;
+    text-align: center;
+    width: 495px;
+    height: 30px;
+   
+}
+
+input[type=checkbox]:checked + input {
+  
+    text-decoration: line-through;
+    
+}
+
+#form-control{
+   width: 500px;
+  
+}
+
+input{
+    font-size: larger;
+}
+
+
+input[type=checkbox]
+{
+    margin-top: 10px; 
+}
+input[type=text]
+{
+    background-color: rgb(202, 201, 199);  
+    border-style: none;
+}
+
+button{
+    background-color:#5e4b84;
+    font-size: 150%;
+    font-weight: bolder;
+    color: aliceblue;
+}
+
+html{
+    background-image: -webkit-linear-gradient(65deg, #5F9EA0 50%, #002D62 50%);
+    min-height: 1000px;
+    font-family: 'helvetica neue';
+    text-align: center;
+}

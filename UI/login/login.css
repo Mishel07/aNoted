@@ -1,0 +1,62 @@
+html {
+  
+  background-image: -webkit-linear-gradient(65deg, #5F9EA0 50%, #002D62 50%);
+  min-height: 1000px;
+  font-family: 'helvetica neue';
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h1{
+  color:#E4E9FD;
+  font-family: 'Cedarville Cursive', cursive;
+}
+
+body {
+  padding-top: 5rem;
+  text-align: center;
+  overflow: hidden;
+}
+
+button,#login{
+  background-color:rgb(235, 201, 137);
+  font-size: 150%;
+  font-weight: bolder;
+}
+
+input{
+    font-size: larger;
+}
+
+#logo{
+  color:rgb(9, 63, 63);
+  font-weight: bolder;
+  
+}
+
+
+
+
+
+a{
+  text-decoration: none;
+  
+  transition: font-size 0.5s;
+  background-color: white ;
+  color: #0a2351;
+  font-size: x-large;
+ 
+}
+
+a:hover{
+ 
+  font-size: 35px;
+  background-color: #0a2351 ;
+  color:yellowgreen ;
+}
+
+
+ 
